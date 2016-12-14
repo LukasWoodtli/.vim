@@ -11,3 +11,6 @@ colorscheme solarized
 if has('gui_running')
 	set guifont=DejaVu\ Sans\ Mono\ 14
 endif
+
+nmap <F8> :TagbarToggle<CR>
+
