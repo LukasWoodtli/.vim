@@ -15,5 +15,8 @@ elseif has('gui_running')
 	set linespace=2
 endif
 
+" Line numbers
+set number
+
 nmap <F8> :TagbarToggle<CR>
 
