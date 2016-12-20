@@ -12,6 +12,7 @@ if has('gui_macvim')
 	set guifont=DejaVu\ Sans\ Mono:h18
 elseif has('gui_running')
 	set guifont=DejaVu\ Sans\ Mono\ 14
+	set linespace=2
 endif
 
 nmap <F8> :TagbarToggle<CR>
