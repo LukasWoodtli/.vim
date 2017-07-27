@@ -16,3 +16,12 @@ fi
 
 echo "runtime vimrc" > "$VIMRC_FILE"
 
+readonly VUNDLE_DIR="$THIS_SCRIPT_DIR/bundle/Vundle.vim"
+if [ ! -d  "$VUNDLE_DIR" ]
+then
+	mkdir -p "$VUNDLE_DIR"
+	git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	# install all plugins
+	vim +PluginInstall +qall
+fi
+
