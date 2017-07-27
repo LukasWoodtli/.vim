@@ -3,6 +3,8 @@
 set -e
 set -u
 
+# https://stackoverflow.com/questions/18197705/adding-your-vim-vimrc-to-github-aka-dot-files/18203545#18203545
+
 readonly THIS_SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 readonly VIMRC_FILE="$THIS_SCRIPT_DIR/../.vimrc"
 
