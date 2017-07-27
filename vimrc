@@ -1,5 +1,6 @@
 
-execute pathogen#infect()
+source ~/.vim/bundle.vim
+
 syntax on
 filetype plugin indent on
 
@@ -18,5 +19,5 @@ endif
 " Line numbers
 set number
 
-nmap <F8> :TagbarToggle<CR>
+"nmap <F8> :TagbarToggle<CR>
 
