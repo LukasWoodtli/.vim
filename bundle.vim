@@ -18,5 +18,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'altercation/vim-colors-solarized'
 
+Plugin 'scrooloose/nerdtree'
+
+Plugin 'Tagbar'
+
 call vundle#end()
 
