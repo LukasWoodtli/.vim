@@ -22,5 +22,7 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'Tagbar'
 
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 call vundle#end()
 
