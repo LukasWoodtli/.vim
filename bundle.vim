@@ -24,5 +24,8 @@ Plugin 'Tagbar'
 
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim'
+
 call vundle#end()
 
