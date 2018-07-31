@@ -29,5 +29,7 @@ Plugin 'junegunn/fzf.vim'
 
 Plugin 'editorconfig/editorconfig-vim'
 
+Plugin 'ShowTrailingWhitespace'
+
 call vundle#end()
 
