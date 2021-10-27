@@ -36,3 +36,5 @@ set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusl
 " Show trailling whitespaces
 highlight ShowTrailingWhitespace ctermbg=Red guibg=Red
 
+:set mouse=a
+
